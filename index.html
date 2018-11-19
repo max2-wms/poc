@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myapp">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>POC</title>
+
+        <link rel="stylesheet" type="text/css" href="styles/css/stylesheet.css">
+    </head>
+    <body ng-controller="MainCtrl">
+        <h1><a href="http://google.com" ng-click="leavePage()">{{ linkText }}</a></h1>
+
+        <!-- Libs -->
+        <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+        <script type="text/javascript" src="node_modules/angular-beforeunload/angular-beforeunload.js"></script>
+        <!-- End Libs -->
+
+        <!-- Application Scripts -->
+        <script type="text/javascript" src="scripts/compressed/script.js"></script>
+        <!-- End Application Scripts -->
+    </body>
+</html>

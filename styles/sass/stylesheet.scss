@@ -1,0 +1,16 @@
+body {
+    background-color: #CCC;
+    text-align: center;
+    margin-top: 150px;
+
+    a:link,
+    a:visited,
+    a:active {
+        color: blue;
+        text-transform: uppercase;
+    }
+
+    a:hover {
+        color: purple;
+    }
+}
